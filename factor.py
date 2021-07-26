@@ -1,6 +1,6 @@
 # %%
 nums = range(2,101)
-# 0～100までの素数をリストprimeに格納
+# 2～100までの素数をリストprimeに格納
 prime = []
 for i in nums:
     for j in range(2,i):
@@ -9,7 +9,7 @@ for i in nums:
     else:
         prime.append(i)
 
-# 0～100までの整数を素因数分解
+# 2～100までの整数を素因数分解
 for i in nums:
     print(i,end='...')
     # divを整数iに設定
